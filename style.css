@@ -1,0 +1,875 @@
+*{
+    margin: 0px;
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+
+    
+    .one{
+        height: 570px !important;
+       
+    }
+
+    .one h1{
+        width: 75% !important;
+        padding-left: 0px;
+        text-align: center;
+    }
+    
+    .navi{
+        display: none;
+        width: 100%;
+    }
+    
+    .circle{
+        position: absolute !important;
+        margin-left: 10% !important;
+        right: auto;
+        left: 0;
+       
+    }
+    #txt{
+        width: 90% !important;
+        height: 250px !important;
+    }
+    
+    
+    .two{
+        grid-template-columns: 1fr !important;
+        grid-template-areas: "head"
+                            "con" !important;
+        width: 90% !important;
+        padding: 0 !important;
+    }
+    
+    .for{
+        padding: 0px;
+    }
+    
+    
+    .gr{
+        grid-template-columns: 1fr !important;
+        grid-template-areas: "cont"
+                            "fo" !important;
+    }
+    
+    
+    .con6{
+        grid-template-columns: 1fr !important;
+        grid-template-areas: "photo"
+                                "gaming"
+                                "cwriting" !important;
+    }  
+    
+    .header_1{
+        padding: 0px !important;
+        width: 100% !important;
+        
+    }
+    
+    .header_1 h2{
+        width: 90% !important;
+        text-align: center !important;
+    }
+    
+    .header_2 h2{
+        width: 90% !important;
+        text-align: center !important;
+    }
+    
+    .header_3 h2{
+        width: 90% !important;
+        text-align: center !important;
+    }
+    .header_4 h2{
+        width: 90% !important;
+        text-align: center !important;
+    }
+    .header_5 h2{
+        width: 90% !important;
+        text-align: center !important;
+    }
+    
+    .chaha{
+        width: 100% !important;
+        padding: 0px !important;
+        text-align: center;
+        margin-left: -30px !important;
+    }
+    
+    
+    .three{
+        grid-template-columns: 1fr !important;
+        grid-template-areas: "head"
+                            "con" !important;
+        width: 90% !important;
+        padding: 0 !important;
+    }
+    
+    .header_2{
+        padding: 0px !important;
+        
+    }
+    
+    .conshaha{
+        width: 100% !important;
+        padding: 0px !important;
+        text-align: center;
+        margin-left: -30px !important;
+    }
+    
+    .four{
+        grid-template-columns: 1fr !important;
+        grid-template-areas: "head"
+                            "con" !important;
+        /*width: 90% !important;*/
+        padding: 0 !important;
+    }
+    
+    .header_3{
+        padding: 0px !important;
+        
+    }
+    
+    .conhaha{
+        width: 100% !important;
+        padding: 0px !important;
+        text-align: center;
+        margin-left: -30px !important;
+    }
+    
+    .five{
+        grid-template-columns: 1fr !important;
+        grid-template-areas: "head"
+                            "con" !important;
+        width: 90% !important;
+        padding: 0 !important;
+    }
+    
+    .five img{
+        background-size: cover !important;
+        display: none;
+
+    }
+    
+    .header_4{
+        padding: 0px !important;
+        
+    }
+    
+    .cohaha{
+        width: 100% !important;
+        padding: 0px !important;
+        text-align: center;
+        margin-left: -30px !important;
+    }
+    
+    .six{
+        grid-template-columns: 1fr !important;
+        grid-template-areas: "head"
+                            "con" !important;
+        width: 90% !important;
+        padding: 0 !important;
+    }
+    
+    .header_5{
+        padding: 0px !important;
+        
+        
+    }
+    
+    .header_5 h2{
+        width: 100%;
+        font-size: 20pt !important;
+        text-align: center !important;
+    }
+    
+    .haha{
+        width: 100% !important;
+        padding: 0px !important;
+        text-align: center;
+        margin-left: -30px !important;
+        margin-top: -250px;
+    }
+    
+    
+    .small_bars{
+        position: fixed;
+        top: 0;
+        left: 0;
+        color: white;
+        padding: 5px;
+        
+    }
+    
+    .small_nav1{
+        position: fixed;
+        top: 0;
+        z-index: 50;
+        width: 100%;
+        height: 110vh;
+        background-color: white;
+        
+    }
+    
+    .small_nav1 ul{
+        padding-top: 30px;
+    }
+    
+    .small_nav1 ul li{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: skyblue;
+        font-weight: bold;
+    }
+}
+
+.small_bars{
+    display: hidden;
+}
+
+
+.main{
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "parallax parallax parallax"
+                         "academics academics academics"
+                         "skills skills skills"
+                         "experience experience experience"
+                         "accomplishments accomplishments accomplishments"
+                         "activities activities activities"
+                         "hobbies hobbies hobbies"
+                         "testimonials testimonials testimonials"
+                         "footer footer footer";
+}
+
+
+a{
+    text-decoration: none;  
+    color: inherit;
+}
+
+body, html{
+    height: 100%;
+}
+
+.one{ 
+    grid-area: parallax;
+    /* The image used */
+    background-image: url("Me.jpeg");
+
+    /* Full height */
+    height: 400px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.one h1{
+    padding-top: 100px;
+    padding-left: 50px;
+    font-size: 22pt;
+    color: white;
+    width: 50%;
+    text-align: center;
+}
+#arrow{
+    animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+    0%{
+        padding-top: 100px;
+        color: white;
+    }
+    40%{
+        padding-top: 50px;
+        color: aqua;
+    }
+    100%{
+        padding-top:100px;
+        color: white;
+    }
+}
+
+#name1{
+    font-size: 34pt;
+    animation: animation1 2s infinite;
+}
+@keyframes animation1{
+    0%{
+        color: aqua;
+    }
+    40%{
+        color: white;
+    }
+    100%{
+        color: aqua;
+    }
+}
+
+.circle{
+    width: 300px;
+    height: 300px;
+    background-color: rosybrown;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: 175px;
+    position: absolute;
+    right: 0;
+    margin-top: -150px;
+    box-shadow: 1px 1px 100px rgba(0,0,0,0.4);
+    transition: 1s ease-out;
+    cursor: pointer;
+    
+}
+
+.circle:hover{
+    transform: scale(1.1);
+    transition: 1s ease-in;
+}
+
+#txt{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    color: white;
+}
+
+.header{
+    width: 100%;
+    height: 60px;
+    text-align: right;
+    background-color: #2f2f2f;
+    color: white;
+    box-shadow: 1px 1px 10px rgba(0,0,0,0.3);
+    background-image: url(anti.jpg);
+    background-attachment: fixed;
+}
+
+.header h1
+{
+    text-align: center;
+    padding: 10px;
+}
+
+.header span{
+    float: right;
+}
+
+.header ul{
+    list-style-type: none;
+    text-align: center;
+    margin-top: -30px;
+}
+
+.header ul>li{
+    display: inline-block;
+    padding: 0px 10px 0px 10px;
+}
+
+.two{
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    grid-area: academics;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "head con";
+    height: 1000px;
+}
+
+.header_1{
+    grid-area: head;
+    padding-top: 60%;
+}
+
+.chaha{
+    grid-area: con;
+    width: 50%;
+    padding-top: 60%;
+}
+
+.two img{
+    position: absolute;
+    min-height: 1500px;
+    z-index: -2;
+}
+
+.three{
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    grid-area: skills;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "head con";
+    height: 800px;
+}
+
+.header_2{
+    grid-area: head;
+}
+
+.conshaha{
+    grid-area: con;
+    float: right;
+    width: 50%;
+    padding-top: 2%;
+}
+
+.three img{
+    position: absolute;
+    min-height: 1000px;
+    z-index: -2;
+}
+.four{
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    grid-area: experience;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "head con";
+    background-color: antiquewhite;  
+}
+
+.header_3{
+    grid-area: head;
+}
+
+.conhaha
+{
+    grid-area: con;
+    float: right;
+    width: 50%;
+    padding-top: 2%;
+}
+
+.four img{
+    position: absolute;
+    height: 1000px;
+    z-index: -2;
+}
+
+.five{
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    grid-area: accomplishments;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "head con";
+    height: 700px;
+}
+
+.header_4{
+    grid-area: head;
+}
+
+.cohaha
+{
+    grid-area: con;
+    float: right;
+    width: 50%;
+    padding-top: 2%;
+}
+
+.five img{ 
+    position: absolute;
+    min-height: 300px;
+    z-index: -2;
+}
+.six{
+    align-items: center;
+    width: 100%;
+    grid-area: activities;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "head con";
+    height: 1000px;
+}
+
+.header_5{
+    grid-area: head;
+}
+
+.haha
+{
+    grid-area: con;
+    float: right;
+    width: 50%;
+    padding-top: 2%;
+}
+
+.six img{
+    position: absolute;
+    height: 1000px;
+    z-index: -2;
+}
+.seven{
+    width: 100%;
+    text-align: center;
+    grid-area: hobbies;
+}
+
+.photography{
+    grid-area: photo;
+    background-image: url(photography.jpg);
+    height: 1000px;
+    background-size: cover;
+    height: 300px;
+}
+
+.gaming{
+    grid-area: gaming;
+    background-image: url(gaming.jpg);
+    height: 1000px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+
+.contentwriting{
+    grid-area: cwriting;
+    background-image: url("contentwriting.jpg");
+    height: 1000px;
+    background-size: cover;
+    height: 300px;
+}
+
+.eight { 
+    grid-area: testimonials;
+    /* The image used */
+    background-image: url("Me.jpeg");
+
+    /* Full height */
+    height: 300px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+    text-align: center;
+    color: white;
+    padding-top: 60px;
+}
+
+.eight h1{
+    text-align: center;
+    font-size: 22pt;
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+
+.nine{ 
+    height: 300px;
+    grid-area: footer;
+}
+
+header{
+    font-size: 35px;
+    font-family: fantasy;
+}
+
+.header_1 h2{
+    font-family: fantasy;
+    font-size: 35px;
+    float: left;
+    width: 50%;
+    padding-left: 5%;
+    position: relative;
+    text-align: center;
+    color: antiquewhite;
+}
+
+ 
+.header_2 h2{
+    font-family: fantasy;
+    font-size: 35px;
+    float: left;
+    width: 50%;
+    padding-left: 5%;
+    text-align: center;
+}
+.header_3 h2{
+    font-family: fantasy;
+    font-size: 35px;
+    float: left;
+    width: 50%;
+    padding-left: 5%;
+    text-align: center;
+}
+.header_4 h2{
+    font-family: fantasy;
+    font-size: 35px;
+    float: left;
+    width: 50%;
+    padding-left: 5%;
+    padding-top: 100px;
+    text-align: center; 
+}
+.header_5 h2{
+    font-family: fantasy;
+    font-size: 45px;
+    float: left;
+    width: 100%;
+    padding-left: 5%;
+    width: 50%;
+    text-align: center;
+}
+.header_6 h2{
+    text-align: center;
+    font-family: fantasy;
+    font-size: 35px;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.con6{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "photo gaming cwriting";
+}
+
+.header_7 h2{
+    font-family: fantasy;
+    font-size: 35px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    padding-top: 5px;
+}
+
+.header_6{
+    width: 100%;
+    text-align: center;
+}
+
+.Contents{
+    float: right;
+    width: 50%;
+    padding-top: 2%;
+}
+
+.txt{
+    width: 100%;
+    top: 0;
+    z-index: 2;
+    text-align: center;
+    margin-top: 100px;
+
+}
+.txt ul{
+    text-align: left;
+    margin-left: 50%;
+}
+ul
+{
+    list-style-type: none;
+}
+li
+{
+    transition: .3s ease-out;
+    list-style: inline-block;
+}
+li:hover{
+    transform: scale(1.1);
+    transition: .3s ease-in;
+}
+
+.ribbon {
+ font-size: 16px !important;
+ /* This ribbon is based on a 16px font side and a 24px vertical rhythm. I've used em's to position each element for scalability. If you want to use a different font size you may have to play with the position of the ribbon elements */
+
+ width: 50%;
+    
+ position: relative;
+ background: teal;
+ color: white;
+ text-align: center;
+ padding: 1em 2em; /* Adjust to suit */
+ margin: 2em auto 3em; /* Based on 24px vertical rhythm. 48px bottom margin - normally 24 but the ribbon 'graphics' take up 24px themselves so we double it. */
+}
+.ribbon:before, .ribbon:after {
+ content: "";
+ position: absolute;
+ display: block;
+ bottom: -1em;
+ border: 1.5em solid #986794;
+ z-index: -1;
+}
+.ribbon:before {
+ left: -2em;
+ border-right-width: 1.5em;
+ border-left-color: transparent;
+}
+.ribbon:after {
+ right: -2em;
+ border-left-width: 1.5em;
+ border-right-color: transparent;
+}
+.ribbon .ribbon-content:before, .ribbon .ribbon-content:after {
+ content: "";
+ position: absolute;
+ display: block;
+ border-style: solid;
+ border-color: #804f7c transparent transparent transparent;
+ bottom: -1em;
+}
+.ribbon .ribbon-content:before {
+ left: 0;
+ border-width: 1em 0 0 1em;
+}
+.ribbon .ribbon-content:after {
+ right: 0;
+ border-width: 1em 1em 0 0;
+}
+
+.photog{
+    position: absolute;
+    top: 0;
+    z-index: 2;
+    width: 100%;
+    text-align: left;
+    margin-top: 100px;
+    margin-right: 40px;
+}
+
+.con6 h2{
+    padding-top: 30%;
+}
+
+.photography h2{
+    color: antiquewhite;
+}
+
+.gaming h2{
+    color: antiquewhite;
+}
+
+.contentwriting h2{
+    color: black;
+}
+
+.nine p{
+    text-align: center;
+}
+
+.contact{
+    width: 50%;
+    text-align: left;
+    padding-left: 20%;
+    grid-area: cont;
+    padding-top: 8%;
+}
+
+.for{
+    grid-area: fo;
+    align-items: center;
+    padding-top: 5%;
+    overflow-x: hidden;
+}
+
+.gr{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "cont fo";
+}
+
+.a{
+    padding-top: 10px;
+    width: 90%;
+}
+
+.c{
+    padding-top: 10px;
+    width: 90.3%;
+}
+
+.z{
+  display: inline-block;
+  margin-left: -30px;
+  padding: 15px 15px;
+  width: 240px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: firebrick;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.z:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.z:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.b{
+    width: 100%;
+    text-align: center;
+}
+
+.navbar-nav li{
+    display: inline;
+}
+
+.navi{
+    top: 0;
+    position: fixed;
+    text-align: center;
+    background-color: white;
+    overflow-x: hidden;
+    height: 30px;
+    width: 100%;
+    z-index: 1000;
+}
+
+.nav-item{
+    padding: 0px 10px 0px 10px;
+    font-family: cursive;
+}
+
+.i{
+    padding: 10px;
+}
+
+.x{
+    padding: 10px;
+}
+
+.b{
+    padding: 10px;
+}
+
+#message{
+    padding: 10px;
+}
